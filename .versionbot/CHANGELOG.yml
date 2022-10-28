@@ -1,4 +1,18 @@
 - commits:
+    - subject: imprive assembly guide
+      hash: eb0e0efe009021fdd02e9b9c2fb98a6b36adda11
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Cooke <ryan@balena.io>
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      author: rcooke-warwick
+      nested: []
+  version: 0.0.5
+  title: ""
+  date: 2022-10-28T14:58:03.936Z
+- commits:
     - subject: convert to flowzone
       hash: 97e5a7a8a0638ddd7e68216e3bdb40e98868f095
       body: ""
