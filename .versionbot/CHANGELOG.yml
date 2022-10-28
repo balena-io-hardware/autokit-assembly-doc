@@ -1,0 +1,40 @@
+- commits:
+    - subject: convert to flowzone
+      hash: 97e5a7a8a0638ddd7e68216e3bdb40e98868f095
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Cooke <ryan@balena.io>
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      author: rcooke-warwick
+      nested: []
+  version: 0.0.4
+  title: ""
+  date: 2022-10-28T11:47:25.796Z
+- version: 0.0.3
+  date: 2022-10-27T16:10:35Z
+  commits:
+    - hash: 2a8f739437c73850aaf1110c0165ef4f00965ac8
+      author: rcooke-warwick
+      footers:
+        change-type: patch
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      subject: change repo type to generic
+      body: null
+- version: 0.0.2
+- date: 2022-08-19T11:57:22Z
+- commits:
+    - hash: 326004035d1e9ae2ae9d97749cd1d4d86f0bfbe7
+- commits:
+    - author: rcooke-warwick
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+- commits:
+    - subject: initial commit
+- commits:
+    - body: null
