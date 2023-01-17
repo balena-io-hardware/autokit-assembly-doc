@@ -1,23 +1,20 @@
 # Autokit assembly and BoM
 
-This repo includes the assembly information and bill of material for the Autokit suite.
-Everything included here should allow you to get started with a single Autokit tile.
+This repo includes the assembly information and bill of material for an Autokit tile, with the following features:
+
+- sd card multiplexing
+- power control
+- hdmi capture
+- ethernet control
+- serial
+- other usb peripherals
 
 ## Contents
 
 - [Autokit assembly and BoM](#autokit-assembly-and-bom)
   - [Contents](#contents)
   - [Nomenclature](#nomenclature)
-  - [Supported USB Module list](#supported-usb-module-list)
-    - [USB hubs](#usb-hubs)
-    - [SD card multiplexors](#sd-card-multiplexors)
-    - [Power Relay](#power-relay)
-    - [Serial](#serial)
-    - [Ethernet adapter](#ethernet-adapter)
-    - [HDMI capture](#hdmi-capture)
   - [Bill of Materials](#bill-of-materials)
-    - [Components](#components)
-    - [Cables](#cables)
   - [Assembly](#assembly)
     - [General layout](#general-layout)
     - [Assembling a tile](#assembling-a-tile)
@@ -35,62 +32,9 @@ Everything included here should allow you to get started with a single Autokit t
 - Tile - A complete Autokit + DuA instance, including host, nodes, PSU and cables
 - PSU - Power Supply Unit
 
-## Supported USB Module list
-
-The following lists all supported pieces of hardware for the Autokit.
-One of each piece is required for the complete assembly - however not all pieces may be used for a given application.
-You can pick and choose which pieces you need.
-
-### USB hubs
-
-- [Anker 4 port USB hub](https://www.amazon.co.uk/Anker-4-Port-Macbook-Surface-Notebook/dp/B00Y25XFGK/)
-
-### SD card multiplexors
-
-- [Linux Automation GmbH](https://shop.linux-automation.com/usb_sd_mux-D02-R01-V02-C00-en)
-
-### Power Relay
-
-- [Autokit Relay](https://github.com/balena-io-hardware/autokit-relay-3d)
-
-### Serial
-
-- [FTDI UART to USB cable](https://uk.rs-online.com/web/p/raspberry-pi-cables/7676200)
-
-### Ethernet adapter
-
-- [Amazon Basics Ethernet to USB adapter](https://www.amazon.co.uk/AmazonBasics-1000-Gigabit-Ethernet-Adapter/dp/B00M77HMU0)
-
-### HDMI capture
-
-- [Any USB capture device that uses V4l drivers/is UVC compliant](https://www.amazon.co.uk/MBMT-Streaming-Conferencing-Broadcasting-Compatible/dp/B095P2D745/) 
-
 ## Bill of Materials
 
-### Components
-
-| Components | Qty | Image |
-|-|-|-|
-| Skadis board (35cmx56cm) | 1 | <img src="./documentation/images/skadis.jpg" width="250"> |
-| Power relay (autokit-relay) | 1 | <img src="./documentation/images/relay.jpg" width="250"> |
-| SD card multiplexer (sd-mux) | 1 | <img src="./documentation/images/usb-sd-mux.jpg" width="250"> |
-| SD card | 1 | <img src="./documentation/images/sd-card.jpg" width="250"> |
-| USB-Ethernet adapter | 1 | <img src="./documentation/images/usb-ethernet.jpg" width="250"> |
-| USB-HDMI adapter | 1 | <img src="./documentation/images/usb-hdmi.jpg" width="250"> |
-| USB-Serial adapter | 1 | <img src="./documentation/images/usb-serial.jpg" width="250"> |
-| USB-Hub | 1 | <img src="./documentation/images/usb-hub.jpg" width="250"> |
-
-
-### Cables
-
-| Cables | Qty | Image |
-|-|-|-|
-| USB A to Micro USB (for SD mux) | 1 | <img src="./documentation/images/usb-micro.jpg" width="250"> |
-| USB A to USB B (for relay) | 1 | <img src="./documentation/images/usb-b.jpg" width="250"> |
-| HDMI cable | 1 | <img src="./documentation/images/hdmi-cable.jpg" width="250"> |
-| Ethernet cable | 2 | <img src="./documentation/images/ethernet-cable.jpg" width="250"> |
-| C14 to plug socket | 1 | <img src="./documentation/images/c14-to-plug.jpg" width="250"> |
-| C13 to mains cable | 1 | <img src="./documentation/images/c13-mains.jpg" width="250"> |
+The BoM can be found [here](source/bom/bom.csv)
 
 ## Assembly
 
