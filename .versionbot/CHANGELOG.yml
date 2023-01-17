@@ -1,4 +1,18 @@
 - commits:
+    - subject: update bom
+      hash: 3a0a118fbf900a35d8f8a8e9e61b49693380cb41
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Cooke <ryan@balena.io>
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      author: rcooke-warwick
+      nested: []
+  version: 0.0.6
+  title: ""
+  date: 2023-01-17T11:11:20.289Z
+- commits:
     - subject: imprive assembly guide
       hash: eb0e0efe009021fdd02e9b9c2fb98a6b36adda11
       body: ""
